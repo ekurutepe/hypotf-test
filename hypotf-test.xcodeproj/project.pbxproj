@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		872640F01C458FA90052F803 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 872640EF1C458FA90052F803 /* main.m */; };
+		872640F31C458FA90052F803 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 872640F21C458FA90052F803 /* AppDelegate.m */; };
+		872640F61C458FA90052F803 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 872640F51C458FA90052F803 /* ViewController.m */; };
+		872640F91C458FA90052F803 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 872640F71C458FA90052F803 /* Main.storyboard */; };
+		872640FB1C458FA90052F803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 872640FA1C458FA90052F803 /* Assets.xcassets */; };
+		872640FE1C458FA90052F803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 872640FC1C458FA90052F803 /* LaunchScreen.storyboard */; };
+		872641091C458FA90052F803 /* hypotf_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 872641081C458FA90052F803 /* hypotf_testTests.m */; };
+		872641141C458FA90052F803 /* hypotf_testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 872641131C458FA90052F803 /* hypotf_testUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		872641051C458FA90052F803 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 872640E31C458FA90052F803 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 872640EA1C458FA90052F803;
+			remoteInfo = "hypotf-test";
+		};
+		872641101C458FA90052F803 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 872640E31C458FA90052F803 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 872640EA1C458FA90052F803;
+			remoteInfo = "hypotf-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		872640EB1C458FA90052F803 /* hypotf-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hypotf-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		872640EF1C458FA90052F803 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		872640F11C458FA90052F803 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		872640F21C458FA90052F803 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		872640F41C458FA90052F803 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		872640F51C458FA90052F803 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		872640F81C458FA90052F803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		872640FA1C458FA90052F803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		872640FD1C458FA90052F803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		872640FF1C458FA90052F803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		872641041C458FA90052F803 /* hypotf-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hypotf-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		872641081C458FA90052F803 /* hypotf_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hypotf_testTests.m; sourceTree = "<group>"; };
+		8726410A1C458FA90052F803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8726410F1C458FA90052F803 /* hypotf-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hypotf-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		872641131C458FA90052F803 /* hypotf_testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hypotf_testUITests.m; sourceTree = "<group>"; };
+		872641151C458FA90052F803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		872640E81C458FA90052F803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		872641011C458FA90052F803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8726410C1C458FA90052F803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		872640E21C458FA90052F803 = {
+			isa = PBXGroup;
+			children = (
+				872640ED1C458FA90052F803 /* hypotf-test */,
+				872641071C458FA90052F803 /* hypotf-testTests */,
+				872641121C458FA90052F803 /* hypotf-testUITests */,
+				872640EC1C458FA90052F803 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		872640EC1C458FA90052F803 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				872640EB1C458FA90052F803 /* hypotf-test.app */,
+				872641041C458FA90052F803 /* hypotf-testTests.xctest */,
+				8726410F1C458FA90052F803 /* hypotf-testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		872640ED1C458FA90052F803 /* hypotf-test */ = {
+			isa = PBXGroup;
+			children = (
+				872640F11C458FA90052F803 /* AppDelegate.h */,
+				872640F21C458FA90052F803 /* AppDelegate.m */,
+				872640F41C458FA90052F803 /* ViewController.h */,
+				872640F51C458FA90052F803 /* ViewController.m */,
+				872640F71C458FA90052F803 /* Main.storyboard */,
+				872640FA1C458FA90052F803 /* Assets.xcassets */,
+				872640FC1C458FA90052F803 /* LaunchScreen.storyboard */,
+				872640FF1C458FA90052F803 /* Info.plist */,
+				872640EE1C458FA90052F803 /* Supporting Files */,
+			);
+			path = "hypotf-test";
+			sourceTree = "<group>";
+		};
+		872640EE1C458FA90052F803 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				872640EF1C458FA90052F803 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		872641071C458FA90052F803 /* hypotf-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				872641081C458FA90052F803 /* hypotf_testTests.m */,
+				8726410A1C458FA90052F803 /* Info.plist */,
+			);
+			path = "hypotf-testTests";
+			sourceTree = "<group>";
+		};
+		872641121C458FA90052F803 /* hypotf-testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				872641131C458FA90052F803 /* hypotf_testUITests.m */,
+				872641151C458FA90052F803 /* Info.plist */,
+			);
+			path = "hypotf-testUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		872640EA1C458FA90052F803 /* hypotf-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 872641181C458FA90052F803 /* Build configuration list for PBXNativeTarget "hypotf-test" */;
+			buildPhases = (
+				872640E71C458FA90052F803 /* Sources */,
+				872640E81C458FA90052F803 /* Frameworks */,
+				872640E91C458FA90052F803 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hypotf-test";
+			productName = "hypotf-test";
+			productReference = 872640EB1C458FA90052F803 /* hypotf-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		872641031C458FA90052F803 /* hypotf-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8726411B1C458FA90052F803 /* Build configuration list for PBXNativeTarget "hypotf-testTests" */;
+			buildPhases = (
+				872641001C458FA90052F803 /* Sources */,
+				872641011C458FA90052F803 /* Frameworks */,
+				872641021C458FA90052F803 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				872641061C458FA90052F803 /* PBXTargetDependency */,
+			);
+			name = "hypotf-testTests";
+			productName = "hypotf-testTests";
+			productReference = 872641041C458FA90052F803 /* hypotf-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8726410E1C458FA90052F803 /* hypotf-testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8726411E1C458FA90052F803 /* Build configuration list for PBXNativeTarget "hypotf-testUITests" */;
+			buildPhases = (
+				8726410B1C458FA90052F803 /* Sources */,
+				8726410C1C458FA90052F803 /* Frameworks */,
+				8726410D1C458FA90052F803 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				872641111C458FA90052F803 /* PBXTargetDependency */,
+			);
+			name = "hypotf-testUITests";
+			productName = "hypotf-testUITests";
+			productReference = 8726410F1C458FA90052F803 /* hypotf-testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		872640E31C458FA90052F803 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Automatic Labs";
+				TargetAttributes = {
+					872640EA1C458FA90052F803 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					872641031C458FA90052F803 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 872640EA1C458FA90052F803;
+					};
+					8726410E1C458FA90052F803 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 872640EA1C458FA90052F803;
+					};
+				};
+			};
+			buildConfigurationList = 872640E61C458FA90052F803 /* Build configuration list for PBXProject "hypotf-test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 872640E21C458FA90052F803;
+			productRefGroup = 872640EC1C458FA90052F803 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				872640EA1C458FA90052F803 /* hypotf-test */,
+				872641031C458FA90052F803 /* hypotf-testTests */,
+				8726410E1C458FA90052F803 /* hypotf-testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		872640E91C458FA90052F803 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				872640FE1C458FA90052F803 /* LaunchScreen.storyboard in Resources */,
+				872640FB1C458FA90052F803 /* Assets.xcassets in Resources */,
+				872640F91C458FA90052F803 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		872641021C458FA90052F803 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8726410D1C458FA90052F803 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		872640E71C458FA90052F803 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				872640F61C458FA90052F803 /* ViewController.m in Sources */,
+				872640F31C458FA90052F803 /* AppDelegate.m in Sources */,
+				872640F01C458FA90052F803 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		872641001C458FA90052F803 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				872641091C458FA90052F803 /* hypotf_testTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8726410B1C458FA90052F803 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				872641141C458FA90052F803 /* hypotf_testUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		872641061C458FA90052F803 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 872640EA1C458FA90052F803 /* hypotf-test */;
+			targetProxy = 872641051C458FA90052F803 /* PBXContainerItemProxy */;
+		};
+		872641111C458FA90052F803 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 872640EA1C458FA90052F803 /* hypotf-test */;
+			targetProxy = 872641101C458FA90052F803 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		872640F71C458FA90052F803 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				872640F81C458FA90052F803 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		872640FC1C458FA90052F803 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				872640FD1C458FA90052F803 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		872641161C458FA90052F803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		872641171C458FA90052F803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		872641191C458FA90052F803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "hypotf-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.automatic.hypotf-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8726411A1C458FA90052F803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "hypotf-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.automatic.hypotf-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8726411C1C458FA90052F803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "hypotf-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.automatic.hypotf-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hypotf-test.app/hypotf-test";
+			};
+			name = Debug;
+		};
+		8726411D1C458FA90052F803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "hypotf-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.automatic.hypotf-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hypotf-test.app/hypotf-test";
+			};
+			name = Release;
+		};
+		8726411F1C458FA90052F803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "hypotf-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.automatic.hypotf-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "hypotf-test";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		872641201C458FA90052F803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "hypotf-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.automatic.hypotf-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "hypotf-test";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		872640E61C458FA90052F803 /* Build configuration list for PBXProject "hypotf-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				872641161C458FA90052F803 /* Debug */,
+				872641171C458FA90052F803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		872641181C458FA90052F803 /* Build configuration list for PBXNativeTarget "hypotf-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				872641191C458FA90052F803 /* Debug */,
+				8726411A1C458FA90052F803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8726411B1C458FA90052F803 /* Build configuration list for PBXNativeTarget "hypotf-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8726411C1C458FA90052F803 /* Debug */,
+				8726411D1C458FA90052F803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8726411E1C458FA90052F803 /* Build configuration list for PBXNativeTarget "hypotf-testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8726411F1C458FA90052F803 /* Debug */,
+				872641201C458FA90052F803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 872640E31C458FA90052F803 /* Project object */;
+}
