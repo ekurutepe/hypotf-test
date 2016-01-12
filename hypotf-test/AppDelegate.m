@@ -21,8 +21,8 @@
     NSUInteger numberOfPoints = 1000;
     CGPoint points[numberOfPoints];
     for (NSUInteger pointIndex = 0; pointIndex < numberOfPoints; pointIndex++) {
-        points[pointIndex].x = cosf((float)pointIndex / numberOfPoints * M_PI);
-        points[pointIndex].y = sinf((float)pointIndex / numberOfPoints * M_PI);
+        points[pointIndex].x = arc4random_uniform(600);
+        points[pointIndex].y = arc4random_uniform(300);
         //            NSLog(@"%lu.Point = %@", pointIndex + 1, NSStringFromPoint(points[pointIndex]));
     }
     
