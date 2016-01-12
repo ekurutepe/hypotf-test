@@ -16,7 +16,53 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    // Adapted from https://gist.github.com/smic/1579069
+    NSUInteger numberOfPoints = 1000;
+    CGPoint points[numberOfPoints];
+    for (NSUInteger pointIndex = 0; pointIndex < numberOfPoints; pointIndex++) {
+        points[pointIndex].x = cosf((float)pointIndex / numberOfPoints * M_PI);
+        points[pointIndex].y = sinf((float)pointIndex / numberOfPoints * M_PI);
+        //            NSLog(@"%lu.Point = %@", pointIndex + 1, NSStringFromPoint(points[pointIndex]));
+    }
+    
+    NSUInteger numberOfLoops = 1000000;
+    
+    CGFloat length = 0;
+    NSTimeInterval time = [NSDate timeIntervalSinceReferenceDate];
+    for (NSUInteger loopIndex = 0; loopIndex < numberOfLoops; loopIndex++) {
+        for (NSUInteger pointIndex = 1; pointIndex < numberOfPoints; pointIndex++) {
+            CGFloat dx = points[pointIndex].x - points[pointIndex - 1].y;
+            CGFloat dy = points[pointIndex].x - points[pointIndex - 1].y;
+            length += sqrtf(dx * dx + dy * dy);
+        }
+    }
+    time = [NSDate timeIntervalSinceReferenceDate] - time;
+    NSLog(@"Result %f in %f seconds (Sqrt)", length, time);
+    
+    length = 0;
+    time = [NSDate timeIntervalSinceReferenceDate];
+    for (NSUInteger loopIndex = 0; loopIndex < numberOfLoops; loopIndex++) {
+        for (NSUInteger pointIndex = 1; pointIndex < numberOfPoints; pointIndex++) {
+            CGFloat dx = points[pointIndex].x - points[pointIndex - 1].y;
+            CGFloat dy = points[pointIndex].x - points[pointIndex - 1].y;
+            length += hypotf(dx, dy);
+        }
+    }
+    time = [NSDate timeIntervalSinceReferenceDate] - time;
+    NSLog(@"Result %f in %f seconds (Hypot)", length, time);
+    
+    length = 0;
+    time = [NSDate timeIntervalSinceReferenceDate];
+    for (NSUInteger loopIndex = 0; loopIndex < numberOfLoops; loopIndex++) {
+        for (NSUInteger pointIndex = 1; pointIndex < numberOfPoints; pointIndex++) {
+            CGFloat dx = fabs(points[pointIndex].x - points[pointIndex - 1].y);
+            CGFloat dy = fabs(points[pointIndex].x - points[pointIndex - 1].y);
+            length += dx+dy;
+        }
+    }
+    time = [NSDate timeIntervalSinceReferenceDate] - time;
+    NSLog(@"Result %f in %f seconds (Taxi-Cab)", length, time);
     return YES;
 }
 
